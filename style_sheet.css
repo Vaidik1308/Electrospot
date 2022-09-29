@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+html{
+    box-sizing: border-box;
+}
 body
 {
     text-align: center;
@@ -32,7 +35,8 @@ a:hover
 /* styling our header section */
 header > h1
 {
-    font-size: 2.8rem;
+    padding: 50px 5px;
+    font-size: 2.2rem;
     padding: 50px 0px 40px 0px ;
     color: #e7e7e7;
     font-family: 'Mochiy Pop One', sans-serif;
@@ -44,7 +48,7 @@ header li
 }
 header
 {
-    height: 28vh;
+    height: 25vh;
     padding: 5px 0px;
     background-color: #003865;
 }
