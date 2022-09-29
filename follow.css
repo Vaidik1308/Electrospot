@@ -1,0 +1,24 @@
+main a
+{
+    font-size: 1.2rem;
+}   
+    
+main label{
+    font-size: 1.4rem;
+}
+main ul
+{
+    margin-top: 15px;
+}
+main li
+{
+    margin:  5px 0px;
+}
+main div
+{
+    margin: 10px 0px;
+    border: solid black 2px;
+    border-radius: 25px;
+    border-style: dashed;
+}
+

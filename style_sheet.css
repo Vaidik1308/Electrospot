@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+body
+{
+    text-align: center;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* removing the text-decoration on the a tag */
+a
+{
+    text-decoration: none;
+    
+}
+
+/* removing the list style  */
+li
+{
+    list-style: none;
+    
+}
+a:hover
+{
+    color:burlywood
+}
+
+/* styling our header section */
+header > h1
+{
+    font-size: 2.8rem;
+    padding: 50px 0px 40px 0px ;
+    color: #e7e7e7;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+header li 
+{
+    font-size: 1.3rem;
+    margin: 5px 10px;
+}
+header
+{
+    height: 28vh;
+    padding: 5px 0px;
+    background-color: #003865;
+}
+.links
+{   
+    display: flex;
+    justify-content: center;
+}
+header a
+{
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+}
+
+
+/* styling our aside section */
+aside,main
+{
+    background-color: white;
+}
+aside a 
+{
+    
+    color: black;
+}
+aside a:hover
+{
+    color: #218911;
+}
+aside h3
+{
+    font-weight: 100;
+    margin-top: 20px;
+    
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.4rem;
+}
+aside h4{
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+aside li{
+    font-family: 'Fira Sans', sans-serif;
+       
+    font-size: 1.3rem;
+    padding: 5px 10px;
+
+}
+.list li{
+    font-size: 1.2rem;
+}
+aside h4
+{
+    font-family: 'Source Code Pro', monospace;   
+    font-size: 1.3rem;
+    padding: 5px 10px;
+}
+
+/* styling the main section */
+hr
+{
+    opacity: 0.4;
+}
+main
+{
+    padding-bottom: 20px;
+}
+main img
+{
+    margin: 15px 0px;
+    border: solid #EAFFD0 ;
+    border-radius: 10px;
+}
+main img:hover
+{
+    transform: scale(1.02);
+    opacity: 0.4;
+}
+main h4
+{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.2rem;
+}
+main div h5{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.1rem;
+    margin-top: 8px;
+}
+/* styling the footer section */
+footer
+{
+    height: 20vh;
+    background-color: #003865;
+}
+footer ul
+{
+    display: flex;
+    justify-content:center;
+    padding-top: 20px;
+}
+footer li
+{
+    margin: 0px 10px;
+}
+footer a
+{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.3rem;
+    color:white;
+}
+footer h3
+{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2.2rem;
+    color: white;
+    padding-top:32px ;
+}
+
+/* mediaquerry */
+@media (min-width:600px)
+{
+    .min-width-600
+    {
+        display: grid;
+        grid-template-columns: 1fr 0fr 0fr 2fr;
+    }
+}
+@media(min-width:1000px)
+{
+    .min-width-600
+    {
+        grid-template-columns: 1fr 0fr 0fr 3.5fr;
+    }
+    .min-width-1000
+    {
+        display: grid;
+        grid-template-columns:1fr 1fr ;
+    }
+    header h1
+    {
+        text-align: left;
+        padding-top: 26px;
+        display: inline-block;
+        padding-left:25px; 
+        font-size: 3.8rem;
+    }
+    .links
+    {
+        justify-content: end;
+        padding: 5px 15px 5px 0px;
+    }
+
+}
+
+@media (min-width:1400px)
+{
+    .min-width-1400
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+/* passive components */
+.passive h2{
+    text-align: left;
+    margin: 20px;
+    font-size: 3.2rem;
+    margin-bottom: 5px;
+    font-family: 'Source Code Pro', monospace;
+}
+.lm{
+    margin: ;
+    font-family: 'Fira Sans', sans-serif;
+}
+.lm h3{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2.2rem;
+    text-align: left;
+    margin: 28px;
+    margin-bottom: 8px;
+}
+.passive p{
+    margin: 23px;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: left;
+}
+.lm p{
+    margin: 23px;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    text-align: left;
+}
+.lm a button{
+    height: 36px;
+    width: 115px;
+    border: solid black 2px;
+    font-size: 1.2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 25px;
+    margin-top: 0;
+    background: cornflowerblue;
+    color: white;
+}
+.lm a button:hover{
+    height: 36px;
+    width: 115px;
+    border: solid black 2px;
+    font-size: 1.2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 25px;
+    margin-top: 0;
+    background: white;
+    color: cornflowerblue;
+}

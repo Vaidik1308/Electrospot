@@ -1,0 +1,237 @@
+body
+{
+    text-align: center;
+    background-color: #EAFFD0;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* removing the text-decoration on the a tag */
+a
+{
+    text-decoration: none;
+    
+}
+
+/* removing the list style  */
+li
+{
+    list-style: none;
+    
+}
+a:hover
+{
+    color:burlywood
+}
+
+/* styling our header section */
+header > h1
+{
+    font-size: 2.8rem;
+    padding: 50px 0px 40px 0px ;
+    color: #e7e7e7;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+header li 
+{
+    font-size: 1.3rem;
+    margin: 5px 10px;
+}
+header
+{
+    height: 28vh;
+    padding: 5px 0px;
+    background-color: #003865;
+}
+.links
+{   
+    display: flex;
+    justify-content: center;
+}
+header a
+{
+    color: white;
+}
+/* styling our aside section */
+aside,main
+{
+    background-color: white;
+}
+aside a 
+{
+    color: black;
+}
+aside a:hover
+{
+    color: #218911;
+}
+aside h3
+{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.4rem;
+}
+aside h2
+{
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 20px 0px;
+}
+aside li
+{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.3rem;
+    padding: 5px 10px;
+}
+
+/* styling the main section */
+hr
+{
+    opacity: 0.4;
+}
+main
+{
+    padding-bottom: 20px;
+}
+main img
+{
+    margin: 15px 0px;
+    border: solid #EAFFD0 ;
+    border-radius: 25px;
+}
+main img:hover
+{
+    transform: scale(1.05);
+    opacity: 0.4;
+}
+main h4
+{
+    font-size: 1.2rem;
+}
+
+/* styling the footer section */
+footer
+{
+    height: 20vh;
+    background-color: #003865;
+}
+footer ul
+{
+    display: flex;
+    justify-content:center;
+    padding-top: 20px;
+}
+footer li
+{
+    margin: 0px 10px;
+}
+footer a
+{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.3rem;
+    color:white;
+}
+footer h3
+{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2.2rem;
+    color: white;
+    padding-top:32px ;
+}
+
+
+/* styling our form  */
+/* Contact Me stylesheets */
+.contactForm{
+    color: black;
+    font-family: "Fira Sans", sans-serif;
+    padding: 0px 40px;
+    padding-top: 128px;
+}
+
+.contactForm h1{
+    font-family: "Source Code Pro", monospace;
+    font-size: 3.2rem;
+}
+.contactheading{
+  /* padding-left: 122px; */
+  text-align: center;
+  margin-bottom: 30px;
+}
+.contactForm form div label{
+  font-size: 1.4rem;
+}
+.contactForm form div{
+    text-align: left;
+  padding:10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+#checkbox{
+  flex-direction: row;
+}
+#checkbox input{
+  width: 3.2rem;
+}
+.contactForm form div input{
+  width: 15vw;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 2px;
+}
+
+#emailHelp{
+  font-size: 1rem;
+  color: dodgerblue;
+  margin: 0 5px;
+}
+/* .contactForm form button{
+  font-size: 1.4rem;
+  padding: 7px;
+  width: 9.2rem;
+  border-radius: 9px;
+} */
+.btn-sm{
+  padding: 8px;
+  width: 9.8rem;
+}
+.mb-3 label{
+    text-align: left;
+}
+.contactForm form button{
+    /* border-radius: 25px; */
+    border-radius: 10px;
+    background: cornflowerblue;
+    color: white;
+    font-size: 1.2rem;
+    width: 10.2rem;
+
+}
+.contactForm form button:hover{
+    border-radius: 10px;
+    background:white;
+    color: black;
+    font-size: 1.2rem;
+    width: 10.2rem;
+}
+.form-check-input{
+    text-align: left;
+}
+
+@media(min-width:600px)
+{
+    aside
+    {
+        padding-left: 2.2rem;
+        text-align: left;
+    }
+    .min-width-600
+    {
+        display: grid;
+        grid-template-columns: 1fr 0fr 3.5fr;
+    }
+
+}
