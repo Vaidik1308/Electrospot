@@ -48,6 +48,7 @@ header li
 }
 header
 {
+    width: 120%;
     height: 25vh;
     padding: 5px 0px;
     background-color: #003865;
